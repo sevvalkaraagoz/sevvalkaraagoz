@@ -1,0 +1,101 @@
+Soru 1 
+
+#include <studio.h>
+
+int main()
+{
+  int N,i;
+  int terim1=1, terim2=1, terim3
+
+  printf("N degerini giriniz");
+  scanf("%d" ,  &N);
+
+  printf("Fibonacci serisi(%d terim)");
+  printf(%d, %d", terim1, terim2);
+
+  for(i=3;  i<=N;  i++);
+  {
+
+   terim3=terim1+terim2;
+   printf("%d", terim3);
+
+   terim1= terim2;
+   terim2= terim3;
+  }
+  return 0;
+
+}
+
+
+
+
+Soru 2
+
+#include <stidio.h>
+
+int main()
+{
+  char gun
+  printf("[1,7] araliklari arasinda sayi giriniz:\n");
+
+  switch(gun)
+  {
+   case '1':
+    printf("pazartesi");
+    break;
+   case '2':
+     printf("sali");
+     break;
+   case'3':
+     printf("carsamba");
+     break;
+   case'4':
+     printf("persembe");
+     break;
+   case'5':
+     printf("cuma");
+     break;
+   case'6':
+     printf("cumartesi");
+     break;
+   case'7':
+    printf("pazar');
+    break;
+  default:
+    printf(girilen sayiya uygun bir gun bulunmamaktadir");
+    break;
+   }
+   return 0;
+}
+
+
+
+
+Soru 3
+
+#include <studio.h>
+
+int main()
+{
+   int sayiA, sayiB, sayiC;
+   int en buyuk;
+
+   printf("A sayisini giriniz:");
+   scanf("%d" ,&A);
+   printf("B sayisini giriniz:")
+   scanf("%d ,&B);
+   printf("C sayisini giriniz:);
+
+    en buyuk = C;
+    if(A>en buyuk)
+    {
+        en buyuk = A
+    }
+    if ( B>en buyuk)
+    {
+    en buyuk = B;
+    }
+    printf("en buyuk sayi: %d, en buyuk);
+
+    return 0;
+}
